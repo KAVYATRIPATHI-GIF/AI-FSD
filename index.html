@@ -1,49 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kavya Tripathi | Beauty & Content Creator</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      background: rgba(0,0,0,0.4);
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(120deg,#1e293b,#0ea5e9);
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      background: #ec4899;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    section {
+      padding: 70px 40px;
+      text-align: center;
+    }
+
+    .about {
+      background: #111827;
+    }
+
+    .services {
+      background: #020617;
+    }
+
+    footer {
+      background: black;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
 </head>
+
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>Welcome to My Website</h1>
-        <p>This is a dummy index.html page</p>
-    </header>
-
-    <!-- Navigation -->
+  <header>
+    <h2>Kavya Tripathi</h2>
     <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Work</a>
+      <a href="#">Contact</a>
     </nav>
+  </header>
 
-    <!-- Main Content -->
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>This is some sample text for the about section.</p>
-        </section>
+  <div class="hero">
+    <h1>Beauty • Confidence • Content</h1>
+    <p>I create content around self-growth, beauty & tech.</p>
+    <button class="btn">Follow My Journey</button>
+  </div>
 
-        <section>
-            <h2>Services</h2>
-            <p>Details about services will go here.</p>
-        </section>
-    </main>
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm Kavya Tripathi — a content creator passionate about beauty,
+      confidence, tech and personal growth. I love building things and sharing my journey.
+    </p>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 My Website. All rights reserved.</p>
-    </footer>
+  <section class="services">
+    <h2>What I Do</h2>
+    <p>Beauty content • Personal branding • Tech projects • Student life</p>
+  </section>
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
+  <footer>
+    © 2026 Kavya Tripathi | Built with ❤️ using HTML & CSS
+  </footer>
 
 </body>
 </html>
